@@ -35,8 +35,11 @@ const Login = () => {
 
 
     return (
-        <div className="relative flex flex-col bg-gray-200 justify-center min-h-screen overflow-hidden">
-            
+        <div className="background relative flex flex-col bg-gray-200 justify-center min-h-screen overflow-hidden">
+            <div className="cube"></div>
+            <div className="cube"></div>
+            <div className="cube"></div>
+            <div className="cube"></div>
             <div className="w-full p-6 m-auto bg-white rounded-md shadow-xl lg:max-w-sm ">
                 <img src="images/favicon/android-chrome-192x192.png" className="m-auto"></img>
                 <h1 className="text-2xl pt-10 font-semibold text-center text-black">
